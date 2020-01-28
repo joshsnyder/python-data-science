@@ -38,6 +38,13 @@ def modified_number_function(inputInt):
     sum = inputInt[0] + inputInt[1]
     return sum
 
+import math
+def module_3_question_2():
+    print("*** Module 3 question 2 ***")
+    print("Using POW: " + str(pow(16,(1/2))))
+    print("Using math.sqrt: " + str(math.sqrt(16)))
+    print("________________________________________________________________________")
+
 def module_3_question_3(x, y, z):
     print("*** Module 3 question 3 ***")
 
@@ -119,4 +126,5 @@ for numbers in NumberList:
     # Horizontal line for making iterations easier to read.
     print("________________________________________________________________________")
 
+module_3_question_2()
 module_3_question_3(x, y, z)
