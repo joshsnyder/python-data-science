@@ -3,7 +3,7 @@
 
 # Utilize global variables for people's names
 PeopleList = ("Josh", "Joe", "Adam")
-PeopleDict = [{"First":"Josh","Last":"Snyder"},{"First":"Joe","Last":"Smith"}]
+PeopleDict = [{"First":"Josh","Last":"Snyder"},{"First":"Joe","Last":"Smith"},{"First":"Adam","Last":"Doe"}]
 NumberList = [(33,44),(44,55),(66,77)]
 
 # Simple function taking an argument and printing various messages
@@ -13,7 +13,7 @@ def simple_name_function(inputName):
     print(inputName + " what is your favorite hobby?")
     print("It was a pleasure meeting you " + inputName + " I hope we speak soon!")
     # Horizontal line for making iterations easier to read.
-    print("_______________________")
+    print("________________________________________________________________________")
 
 def full_name_function(inputName):
     first = inputName["First"]
@@ -21,14 +21,14 @@ def full_name_function(inputName):
     print("*** Full name function ***")
     print("Hello " + first + " " + last + " it's nice to meet you.")
     # Horizontal line for making iterations easier to read.
-    print("_______________________")
+    print("________________________________________________________________________")
 
 def simple_number_function(inputInt):
     print("*** Simple number function ***")
     sum = inputInt[0] + inputInt[1]
     print("Total for " + str(inputInt[0]) + " plus " + str(inputInt[1]) + " equals: " + str(sum))
     # Horizontal line for making iterations easier to read.
-    print("_______________________")
+    print("________________________________________________________________________")
 
 def modified_number_function(inputInt):
     print("*** Modified number function ***")
@@ -49,4 +49,4 @@ for numbers in NumberList:
     sum = modified_number_function(numbers)
     print("Total for " + str(numbers[0]) + " plus " + str(numbers[1]) + " equals: " + str(sum))
     # Horizontal line for making iterations easier to read.
-    print("_______________________")
+    print("________________________________________________________________________")
