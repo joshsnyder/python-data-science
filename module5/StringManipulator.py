@@ -3,7 +3,7 @@
 # Joshua Snyder 02/16/2020
 
 def main():
-    stringManipulator(input('Enter string value: '))
+    stringManipulator(input('Enter text value: '))
 
 def stringManipulator(inputString):
     return print((f'This is a string manipulated by your input: {inputString}, congratulations on manipulating a string.'))

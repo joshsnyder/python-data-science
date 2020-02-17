@@ -1,14 +1,14 @@
 # This program will accept a number as input and execute a function defined within another, aka nested function
 # Joshua Snyder 02/16/2020
 
+def main():
+    print(doubler(input('Enter a whole number: ')))
+
 def doubler(number):
     def doubleIt(number):
-        return (number * 2)
-    return doubleIt
+        numberInt = int(number)
+        return numberInt * 2
+    return doubleIt(number)
 
-doubler2 = doubler(2)
-doubler4 = doubler(4)
-
-print(doubler2(2))
-print(doubler4(4))
-
+# Execute main program
+main()
