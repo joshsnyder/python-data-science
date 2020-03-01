@@ -1,4 +1,4 @@
-# This program will accept a number as input and execute a function defined within another, aka nested function
+# This program will accept a number as input and execute a function defined within another, aka nested function / module
 # Joshua Snyder 02/16/2020
 
 def main():
