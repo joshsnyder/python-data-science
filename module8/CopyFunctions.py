@@ -1,7 +1,10 @@
 # The purpose of this program is to demistrate the copy function utilizing it for shallow and deep copies of another object.
 # Joshua Snyder 03/08/2020
 
+# External modules
 import copy
+
+# Global data set
 trailBlazers = [{"Microsoft":{"Bill Gates"},"Apple":{"Steve Jobs"},"Amazon":{"Jeff Bezos"}}]
 
 def main():
