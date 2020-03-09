@@ -10,8 +10,8 @@ iterToolsData = ["a","b","c"]
 def main():
     # Type 1 itertools basic
     ItertoolsFunction()
-    # Type 2 infinate loop
-    ItertoolsInfinateFunction()
+    # Type 2 infinite loop
+    ItertoolsinfiniteFunction()
     # Type 3 cycle
     ItertoolsCycleFunction()
     # Type 4 repeat
@@ -24,9 +24,9 @@ def ItertoolsFunction():
     for i in iterToolsData:
         print(i)
 
-def ItertoolsInfinateFunction():
+def ItertoolsinfiniteFunction():
     print("-----------------------------------")
-    print("----- Infinate Loop Example -------")
+    print("----- infinite Loop Example -------")
     print("-----------------------------------")
     for i in count(10, 10):
         if i == 40:
